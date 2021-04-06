@@ -1,0 +1,21 @@
+script(type='text/x-mathjax-config').
+  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+
+script(type='text/javascript', src=theme.mathjax.cdn, async)
+
+script(type='text/javascript', async).
+  $(document).on({
+    'pjax:complete': function() {
+      $.ajax({
+        type: "GET",
+        url: "#{theme.mathjax.cdn}",
+        dataType: "script",
+        cache: true,
+        success: function() {
+          MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+          var math = document.getElementsByClassName("entry-content")[0];
+          MathJax.Hub.Queue(["Typeset",MathJax.Hub,math]);
+        },
+      });
+    }
+  });

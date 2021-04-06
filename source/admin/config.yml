@@ -1,8 +1,8 @@
 backend:
   name: github
-  repo: hangvane/hexo-netlify-cms-vercel # Path to your Github/Gitlab repository
+  repo: hangvane/academia-hexo-netlify-cms-vercel # Path to your Github/Gitlab repository
   branch: main # Branch to update
-  base_url: https://hexo-netlify-cms-vercel.vercel.app
+  base_url: https://academia-hexo-netlify-cms-vercel.vercel.app
 
 # These lines should *not* be indented
 media_folder: 'source/images' # Media files will be stored in the repo under source/images
@@ -19,5 +19,5 @@ collections:
     slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: 'Title', name: 'title', widget: 'string'}
-      - {label: 'Publish Date', name: 'date', widget: 'datetime'}
+      - {label: 'academia', name: 'academia', widget: 'boolean', required: false, hint: 'This field determines whether this post is displayed on the homepage.'}
       - {label: 'Body', name: 'body', widget: 'markdown'}

@@ -1,3 +1,8 @@
+---
+title: Index
+academia: true
+---
+
 # academia-hexo-netlify-cms-vercel
 
 A template to deploy your Hexo **Academic Homepage** with Netlify-CMS on Vercel.
