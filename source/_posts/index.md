@@ -37,7 +37,7 @@ Maybe the easiest way to generate your academic homepage in best practice.
 
 - Provides common pages of academic homepage
 
-- LaTeX formula support added, can be disabled in `themes/Academia/_config.yml`
+- $\LaTeX$ formula support added, can be disabled in `themes/Academia/_config.yml`
 
 # Usage
 
