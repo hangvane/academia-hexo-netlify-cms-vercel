@@ -71,3 +71,6 @@ CDN_USE:
 mathjax:
   enable: true
   cdn: https://cdn.jsdelivr.net/npm/mathjax@2.7.8/MathJax.js?config=TeX-MML-AM_CHTML
+
+statistic:
+  enable: true
