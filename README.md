@@ -40,8 +40,6 @@ Maybe the easiest way to generate your academic homepage in best practice.
 
 Just follow the steps in [hexo-netlify-cms-vercel](https://github.com/hangvane/hexo-netlify-cms-vercel#usage).
 
-In step 4, before clicking `Deploy` button, you need an additional step to modify the default build command to `npm install --save hexo-renderer-pug hexo-renderer-stylus && hexo clean && hexo g`.
-
 Congratulations! You have successfully deployed your academic homepage in best practice.
 
 # Thanks
