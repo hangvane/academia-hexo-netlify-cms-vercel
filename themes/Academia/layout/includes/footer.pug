@@ -1,4 +1,6 @@
 .footer_wrap
+    if theme.statistic.enable
+        include ./statistic.pug
     - var now = new Date()
     - var nowYear = now.getFullYear()
     if theme.since && theme.since != nowYear
