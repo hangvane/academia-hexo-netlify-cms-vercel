@@ -34,6 +34,8 @@ Maybe the easiest way to generate your academic homepage in best practice.
 
 - LaTeX formula support added, can be disabled in `themes/Academia/_config.yml`
 
+- Statistic support added, can be disabled in `themes/Academia/_config.yml`
+
 # Usage
 
 Just follow the steps in [hexo-netlify-cms-vercel](https://github.com/hangvane/hexo-netlify-cms-vercel).
