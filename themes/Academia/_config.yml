@@ -73,3 +73,4 @@ mathjax:
 
 statistic:
   enable: true
+  cdn: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-busuanzi@2.3/js/busuanzi.pure.mini.js
