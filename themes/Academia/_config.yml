@@ -65,7 +65,6 @@ CDN_USE:
     - https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js #/js/third-party/jquery.min.js
     - https://cdn.jsdelivr.net/npm/jquery-pjax@latest/jquery.pjax.min.js
     - /js/main.js
-    - /js/nlf-cms.js
 
 # MathJax Support
 mathjax:
