@@ -9,5 +9,18 @@
 <body>
   <!-- Include the script that builds the page and powers Netlify CMS -->
   <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+  <script>
+    CMS.registerPreviewStyle("/css/index.css");
+    var PagePreview = createClass({
+      render: function() {
+        var entry = this.props.entry;
+        return h('div', {"className": "page", style: {'width': 'unset'}},
+          h('h1', {}, entry.getIn(['data', 'title'])),
+          h('article', {}, this.props.widgetFor('body'))
+        );
+      }
+    });
+    CMS.registerPreviewTemplate("Page", PagePreview);
+  </script>
 </body>
 </html>
