@@ -32,7 +32,7 @@ Maybe the easiest way to generate your academic homepage in best practice.
 
 - Provides common pages of academic homepage
 
-- Unified style of Netlify-CMS review pane with Academia theme
+- Unified style of Netlify-CMS preview pane with Academia theme
 
 - LaTeX formula support added, can be disabled in `themes/Academia/_config.yml`
 

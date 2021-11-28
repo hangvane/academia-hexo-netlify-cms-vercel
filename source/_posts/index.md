@@ -33,6 +33,8 @@ Maybe the easiest way to generate your academic homepage in best practice.
 
 - Academia theme bug fixed
 
+- Unified style of Netlify-CMS preview pane with Academia theme
+
 - Permalink format of articles is changed to `https://<domain>/title`
 
 - Provides common pages of academic homepage
